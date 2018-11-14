@@ -14,3 +14,251 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    background-color: #424242;
+    font-family: sans-serif;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: white;
+    font: 100.01%/1.5 Verdana,Geneva,sans-serif;
+}
+
+h1 {
+    font-size: 2.375em;
+    line-height: 1.26315789;
+    font-weight: 400;
+    border-bottom: 1px solid #666;
+    margin-bottom: 23px;
+}
+
+.route- .region-header {
+    background: url("../img/berg.jpg") no-repeat center center fixed;
+    height: 100vh;
+}
+
+.region-header {
+    background: url("../img/berg.jpg") no-repeat center center fixed;
+    height: 150px;
+}
+
+.region-main {
+    background-color: white;
+    overflow: auto;
+}
+
+.region-main.has-sidebar-left {
+    width: 65.625%;
+    float: left;
+    margin-right: .52083333%;
+    margin-left: 4.6875%;
+    background-color: white;
+}
+
+.region-main.has-sidebar-right {
+    width: 65.625%;
+    float: left;
+    margin-right: .52083333%;
+    margin-left: .52083333%;
+}
+
+.route- .region-header-col-2 {
+    background: url("../img/clouds-04.png") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+}
+
+.region-header-col-1 {
+    height: 250px;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text {
+    display: none;
+}
+
+.rm-navbar {
+    position: fixed;
+    text-align: center;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+
+.next-previous {
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
+
+.region-sidebar-left {
+    display: inline;
+    float: left;
+    width: 28.125%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+
+}
+
+.region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 28.125%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+}
+
+.next {
+    float:right;
+}
+
+.rm-navbar a {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+.region-header-col-2 li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.rm-navbar a:hover {
+    border-bottom: 3px solid black;
+}
+.article .block {
+    border: 1px solid black;
+}
+
+.outer-wrap-main {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    overflow: auto;
+
+}
+
+.outer-wrap-breadcrumb {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.outer-wrap-breadcrumb li::after {
+    content: " >> ";
+}
+
+.outer-wrap-breadcrumb li {
+    list-style: none;
+    display: inline;
+
+}
+
+.outer-wrap-breadcrumb a {
+    text-decoration: none;
+    color: black;
+}
+
+.toc {
+    list-style: none;
+}
+
+.toc .section-header {
+    font-weight: 700;
+    border-bottom: 1px solid #eee;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.wrap-sidebar .block h4 {
+    border-top: 1px solid #ccc;
+    padding: 3px;
+    background-image: linear-gradient(to right,#fff,#ccc);
+    border-radius: 3px;
+}
+
+.toc .selected {
+    background-image: linear-gradient(to right,#fff,#ccc);
+}
+
+.toc a {
+    text-decoration: none;
+    color: black;
+}
+
+.toc li{
+    border-radius: 3px;
+    padding: 3px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.toc li:hover {
+    background-color: blue;
+}
+
+.byline {
+    width: 37%;
+    border: 1px solid #ccc;
+    height: 130px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.byline p {
+    float: left;
+    width: 65%;
+    margin: 20px;
+
+}
+
+.byline img {
+    float: left;
+    border-radius: 20px;
+}
+
+.outer-wrap-footer {
+    background-color: #424242;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+
+.bild1 {
+    float: right;
+}
+
+.viktor {
+    float: right;
+}
+
+.footer-column-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #666;
+}
+
+.footer-column {
+    display: inline-block;
+    width: 33%;
+    margin-top: 35px;
+}
+
+.site-footer {
+    padding: 60px;
+}
+
+.footer-column-3 {
+    border-left: 1px solid #666;
+}
+
+.footer-column-2 {
+    border-left: 1px solid #666;
+}
